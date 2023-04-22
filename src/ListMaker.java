@@ -16,7 +16,7 @@ public class ListMaker {
                     break; case "P": displayList();
                     break; case "Q": Quit();
                     break; } System.out.println("cmd is " +cmd);
-        } while(!don);
+        } while(!done);
     }
     private static void Quit() {
         Scanner sc = new Scanner(System.in); String message = "Are you sure?";
